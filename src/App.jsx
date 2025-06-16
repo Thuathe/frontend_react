@@ -9,7 +9,7 @@ function App() {
   const [preview, setPreview] = useState(null);
 
   // Ganti dengan URL backend Railway kamu
-  const baseUrl = "http://127.0.0.1:8000";
+  const baseUrl = "backendlaravel-production-c9b5.up.railway.app";
 
   const fetchData = () => {
     fetch(`${baseUrl}/api/buku`)
