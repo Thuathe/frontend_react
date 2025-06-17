@@ -146,7 +146,7 @@ const buttonStyle = {
       >
         {b.cover && (
           <img
-            src={`${baseUrl}/storage/${b.cover}`}
+            src={b.cover}
             alt="cover"
             width="80"
             style={{ borderRadius: 5, marginBottom: 10 }}
